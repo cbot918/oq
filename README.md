@@ -6,15 +6,16 @@
  
 ### Getting Started
 啟動 server 端
-```
+```bash
 go run .
 ```
 
 client 端
-``
+```bash
 curl localhost:8887
-``
+```
 
 
 註1：使用 main.go 裡面的註解, 已切換想執行哪種 server
+
 註2：http server 只會 log request 資料
