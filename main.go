@@ -8,14 +8,14 @@ const port = ":8887"
 
 func main() {
 
-	// err := RunTcpServer(port)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-
-	err := RunHTTPServer(port)
+	err := RunTcpServer(port)
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	// err := RunHTTPServer(port)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
 
 }
